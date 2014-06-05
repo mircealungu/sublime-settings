@@ -1,0 +1,4 @@
+[
+    { "keys": ["alt+shift+u"], "command": "run_macro_file", "args": {"file": "Packages/User/ugh.sublime-macro"} },
+    { "keys": ["alt+shift+d"], "command": "run_macro_file", "args": {"file": "Packages/User/del.sublime-macro"} }
+]

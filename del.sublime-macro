@@ -1,0 +1,90 @@
+[
+	{
+		"args":
+		{
+			"action_args": null,
+			"action_command": null,
+			"motion_args":
+			{
+				"by": "stops",
+				"empty_line": true,
+				"extend": true,
+				"forward": false,
+				"punct_begin": true,
+				"word_begin": true
+			},
+			"motion_clip_to_line": true,
+			"motion_command": "move",
+			"motion_inclusive": false,
+			"motion_mode": 0.0
+		},
+		"command": "vi_eval"
+	},
+	{
+		"args":
+		{
+			"commands":
+			[
+				[
+					"insert",
+					{
+						"characters": "\\del{"
+					}
+				],
+				[
+					"exit_insert_mode",
+					null
+				]
+			]
+		},
+		"command": "sequence"
+	},
+	{
+		"args":
+		{
+			"action_args": null,
+			"action_command": null,
+			"motion_args":
+			{
+				"by": "stops",
+				"empty_line": true,
+				"extend": true,
+				"forward": true,
+				"separators": "",
+				"word_end": true
+			},
+			"motion_clip_to_line": true,
+			"motion_command": "move",
+			"motion_inclusive": true,
+			"motion_mode": 0.0
+		},
+		"command": "vi_eval"
+	},
+	{
+		"args":
+		{
+			"commands":
+			[
+				[
+					"move",
+					{
+						"by": "characters",
+						"forward": true,
+						"register": "\""
+					}
+				],
+				[
+					"insert",
+					{
+						"characters": "}"
+					}
+				],
+				[
+					"exit_insert_mode",
+					null
+				]
+			]
+		},
+		"command": "sequence"
+	}
+]
