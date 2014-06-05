@@ -1,0 +1,15 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Google Spell Check",
+		"LaTeXTools",
+		"Markdown Preview",
+		"Move By Paragraph",
+		"Package Control"
+	],
+	"repositories":
+	[
+		"https://github.com/SublimeText/LaTeXTools"
+	]
+}

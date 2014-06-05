@@ -1,0 +1,23 @@
+[
+	{
+		"args":
+		{
+			"commands":
+			[
+				[
+					"insert",
+					{
+						"characters": "\\ins"
+					}
+				],
+				[
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					}
+				]
+			]
+		},
+		"command": "sequence"
+	}
+]

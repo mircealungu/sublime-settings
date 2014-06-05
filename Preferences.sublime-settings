@@ -5,9 +5,9 @@
 		"gray_antialias"
 	],
 	"font_size": 19.0,
-	"wide_caret": true,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-	]
+	],
+	"wide_caret": true
 }

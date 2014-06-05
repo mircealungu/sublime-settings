@@ -1,4 +1,11 @@
 [
-    { "keys": ["alt+shift+u"], "command": "run_macro_file", "args": {"file": "Packages/User/ugh.sublime-macro"} },
-    { "keys": ["alt+shift+d"], "command": "run_macro_file", "args": {"file": "Packages/User/del.sublime-macro"} }
+    { "keys": ["alt+shift+u"], "command": "insert_snippet", "args": { "name": "Packages/User/ugh.sublime-snippet" } },
+    { "keys": ["alt+shift+d"], "command": "insert_snippet", "args": { "name": "Packages/User/del.sublime-snippet" } },
+    { "keys": ["alt+shift+c"], "command": "insert_snippet", "args": { "name": "Packages/User/chg.sublime-snippet" } },    
+    { "keys": ["alt+shift+i"], "command": "run_macro_file", "args": {"file": "Packages/User/ins.sublime-macro"} },
+    { "keys": ["alt+shift+m"], "command": "run_macro_file", "args": {"file": "Packages/User/ml.sublime-macro"} },
+
+      // move by paragraph
+    {"keys": ["shift+alt+up"], "command": "move_by_paragraph", "args": {"forward": false}},
+    {"keys": ["shift+alt+down"], "command": "move_by_paragraph", "args": {"forward": true}}
 ]
