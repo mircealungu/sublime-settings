@@ -3,7 +3,7 @@
 \definecolor{mir}{rgb}{0.4,0.6,0.2}
 \newcommand\ml[1]{\nbc{ML}{#1}{mir}}
 \usepackage{wasysym}
-\newcommand\nice[1]{\nbc{ML \sun}{#1}{mir}}
+\newcommand\yesml[1]{\nbc{ML \sun}{#1}{mir}}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<!-- <tabTrigger>hello</tabTrigger> -->

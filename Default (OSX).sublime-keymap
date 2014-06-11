@@ -3,7 +3,7 @@
     { "keys": ["alt+shift+d"], "command": "insert_snippet", "args": { "name": "Packages/User/del.sublime-snippet" } },
     { "keys": ["alt+shift+c"], "command": "insert_snippet", "args": { "name": "Packages/User/chg.sublime-snippet" } },    
     { "keys": ["alt+shift+i"], "command": "insert_snippet", "args": {"name": "Packages/User/ins.sublime-snippet"} },
-    { "keys": ["alt+shift+n"], "command": "insert_snippet", "args": {"name": "Packages/User/nice.sublime-snippet"} },
+    { "keys": ["alt+shift+y"], "command": "insert_snippet", "args": {"name": "Packages/User/yes.sublime-snippet"} },
     { "keys": ["alt+shift+m"], "command": "run_macro_file", "args": {"file": "Packages/User/ml.sublime-macro"} },
 
       // move by paragraph
