@@ -10,5 +10,6 @@
 
       // move by paragraph
     {"keys": ["shift+alt+up"], "command": "move_by_paragraph", "args": {"forward": false}},
-    {"keys": ["shift+alt+down"], "command": "move_by_paragraph", "args": {"forward": true}}
+    {"keys": ["shift+alt+down"], "command": "move_by_paragraph", "args": {"forward": true}},
+    { "keys": ["alt+space"], "command": "insert_snippet", "args": {"contents": " " } }
 ]
